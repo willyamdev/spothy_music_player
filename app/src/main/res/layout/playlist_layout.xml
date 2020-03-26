@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:clickable="true"
+    android:focusable="true">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/lay_pl_recycle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="0dp"
+        android:layout_height="170dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/lay_pl_imageIcon"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:adjustViewBounds="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_playlist_user" />
+
+            <TextView
+                android:id="@+id/lay_pl_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="5dp"
+                android:text="Minha playlist"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toStartOf="@+id/lay_pl_btnedit"
+                app:layout_constraintStart_toEndOf="@+id/lay_pl_imageIcon"
+                app:layout_constraintTop_toTopOf="@+id/lay_pl_imageIcon" />
+
+            <TextView
+                android:id="@+id/lay_pl_musiccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Músicas: 143"
+                app:layout_constraintStart_toStartOf="@+id/lay_pl_name"
+                app:layout_constraintTop_toBottomOf="@+id/lay_pl_name" />
+
+            <ImageButton
+                android:id="@+id/lay_pl_btndelete"
+                android:layout_width="22dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:adjustViewBounds="true"
+                android:background="#00000000"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_playlist_delete"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/lay_pl_btnedit"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:adjustViewBounds="true"
+                android:background="#00000000"
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toBottomOf="@+id/lay_pl_btndelete"
+                app:layout_constraintEnd_toStartOf="@+id/lay_pl_btndelete"
+                app:layout_constraintTop_toTopOf="@+id/lay_pl_btndelete"
+                app:srcCompat="@drawable/ic_playlist_edit" />
+
+            <ImageButton
+                android:id="@+id/lay_pl_btnDelMusic"
+                android:layout_width="22dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:adjustViewBounds="true"
+                android:background="#00000000"
+                android:scaleType="fitCenter"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/lay_pl_btndelete"
+                app:srcCompat="@drawable/ic_playlist_delete_music" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

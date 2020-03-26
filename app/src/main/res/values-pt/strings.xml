@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="act_main_desconhecido">Artista desconhecido.</string>
+    <string name="act_main_permissao_negada">PERMISSÃO NEGADA</string>
+    <string name="act_main_permissao_negada_btn_negative">SAIR</string>
+    <string name="act_main_permissao_negada_btn_positive">TENTAR NOVAMENTE</string>
+    <string name="act_main_permissao_negada_message">Você negou permissão para ler suas músicas!</string>
+    <string name="act_main_searchmusichint">Procure músicas..</string>
+    <string name="act_plmusic_error">COLOQUE UM NOME</string>
+    <string name="act_plmusic_hint_search">Procure playlists..</string>
+    <string name="dg_addpl_title">SELECIONE UMA PLAYLIST</string>
+    <string name="dg_btn_addpl_text">ADICIONAR</string>
+    <string name="dg_btn_cancpl_text">CANCELAR</string>
+    <string name="dg_btn_createpl">CRIAR</string>
+    <string name="dg_createpl_title">CRIAR PLAYLIST</string>
+    <string name="dg_hint_addnamepl">Nome da playlist..</string>
+    <string name="favname">Favoritos</string>
+    <string name="nav_menu_favs">Favoritos</string>
+    <string name="nav_menu_music">Músicas</string>
+    <string name="nav_menu_playlists">Playlists</string>
+    <string name="plm_music_count">Músicas:</string>
+    <string name="pml_dg_btn_att">ATUALIZAR</string>
+    <string name="pml_dg_title">EDITE UMA PLAYLIST</string>
+</resources>

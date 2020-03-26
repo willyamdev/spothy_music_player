@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name" translatable="false">Spothy</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="open" translatable="false">Open</string>
+    <string name="close" translatable="false">Close</string>
+
+    <!-- CUSTOM DIALOG ADD MUSIC -->
+    <string name="dg_addpl_title">SELECT A PLAYLIST</string>
+    <string name="dg_btn_addpl_text">ADD</string>
+    <string name="dg_btn_cancpl_text">CANCEL</string>
+
+    <!-- CUSTOM DIALOG CREATE PLAYLIST -->
+    <string name="dg_createpl_title">CREATE PLAYLIST</string>
+    <string name="dg_hint_addnamepl">Playlist Name..</string>
+    <string name="dg_btn_createpl">CREATE</string>
+
+    <!-- ACTIVITY MAIN -->
+    <string name="act_main_desconhecido">Unknown artist.</string>
+    <string name="act_main_searchmusichint">Search for songs..</string>
+    <string name="act_main_permissao_negada">PERMISSION DENIED</string>
+    <string name="act_main_permissao_negada_message">You have denied permission to read your songs!</string>
+    <string name="act_main_permissao_negada_btn_negative">LEAVE</string>
+    <string name="act_main_permissao_negada_btn_positive">TRY AGAIN</string>
+
+    <!-- PLAYLIST MANAGER SCRIPT -->
+    <string name="plm_music_count">Musics:</string>
+    <string name="pml_dg_title">EDIT A PLAYLIST</string>
+    <string name="pml_dg_btn_att">UPDATE</string>
+
+    <!-- ACTIVITY PLAYLIST MUSIC -->
+    <string name="act_plmusic_hint_search">Search playlists..</string>
+    <string name="act_plmusic_error">PUT A NAME</string>
+
+    <!-- NAV MENU -->
+    <string name="nav_menu_music">Musics</string>
+    <string name="nav_menu_favs">Favorites</string>
+    <string name="nav_menu_playlists">Playlists</string>
+
+    <!-- FAVORITOS SYS -->
+    <string name="favname">Favorites</string>
+
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="act_main_desconhecido">Artista desconocido</string>
+    <string name="act_main_permissao_negada">PERMISO DENEGADO</string>
+    <string name="act_main_permissao_negada_btn_negative">SALIR</string>
+    <string name="act_main_permissao_negada_btn_positive">INTENTAR NUEVAMENTE</string>
+    <string name="act_main_permissao_negada_message">¡Has negado el permiso para leer tus canciones!</string>
+    <string name="act_main_searchmusichint">Busca canciones..</string>
+    <string name="act_plmusic_error">PONER UN NOMBRE</string>
+    <string name="act_plmusic_hint_search">Busca playlists..</string>
+    <string name="dg_addpl_title">SELECCIONA UNA LISTA DE REPRODUCCIÓN</string>
+    <string name="dg_btn_addpl_text">AGREGAR</string>
+    <string name="dg_btn_cancpl_text">CANCELAR</string>
+    <string name="dg_btn_createpl">CREAR</string>
+    <string name="dg_createpl_title">CREAR LISTA DE REPRODUCCIÓN</string>
+    <string name="dg_hint_addnamepl">Nombre de playlist..</string>
+    <string name="favname">Favoritos</string>
+    <string name="nav_menu_favs">Favoritos</string>
+    <string name="nav_menu_music">Canciones</string>
+    <string name="nav_menu_playlists">Playlists</string>
+    <string name="plm_music_count">Canciones:</string>
+    <string name="pml_dg_btn_att">ACTUALIZAR</string>
+    <string name="pml_dg_title">EDITAR UNA LISTA DE REPRODUCCIÓN</string>
+</resources>
